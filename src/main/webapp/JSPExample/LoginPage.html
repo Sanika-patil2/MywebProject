@@ -1,0 +1,34 @@
+<html>
+<head>
+<script>
+function exitPage()
+{
+	window.close();
+}
+</script>
+</head>
+<body>
+<center>
+<table>
+<form action="http://localhost:8888/MywebProject/JSPExample/LoginDemo.jsp" method="post">
+<tr>
+<th>Login Details</th>
+</tr>
+<tr>
+<br>
+<td>UserID</td>
+<td><input type="Text" name="username"></td>
+<br>
+</tr>
+<tr>
+<br>
+<td>Password</td>
+<td><input type="Password"  name="password"></td>
+<br>
+</tr>
+<tr>
+<td><button type="submit">Login</button></td>
+<td><button type="button" name="exit" onclick="exitPage()">Exit</button></td>
+</tr>
+</body>
+</html>
